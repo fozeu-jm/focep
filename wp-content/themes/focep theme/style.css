@@ -1,0 +1,44 @@
+/*
+Theme Name: FOCEP S.A
+Author: KAIZERWEBDESIGN - +237 696 46 83 33
+Version: 1.0
+*/
+
+@import "css/core-style.css";
+
+.accent{
+    color: #ec0203;
+}
+.format-img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.about-section-two .content-column .inner-column .text p{
+    text-align: justify;
+}
+
+.testing p{
+    color: black;
+    text-align: justify;
+}
+.contact-form textarea{
+    overflow: auto;
+}
+.main-header .top-right{
+    padding: 12px 0px;
+}
+
+body::-webkit-scrollbar {
+    width: 0.5em;
+    
+}
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: #bf1e2e;
+}
